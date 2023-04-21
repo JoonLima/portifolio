@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portifólio</title>
+
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu-items">
+            <i onclick="showMenu()" id="icon-menu" class='bx bx-menu'></i>
+            <li class="menu-item">
+                <a href="#">
+                    <span class="icon"><i class='bx bxs-user-detail'></i></span>
+                    <span class="txt-link">Sobre</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#">
+                    <span class="icon"><i class='bx bx-task'></i></span>
+                    <span class="txt-link">Projetos</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="#">
+                    <span class="icon"><i class='bx bxs-contact'></i></span>
+                    <span class="txt-link">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <main class="conteudo-principal">
+        <section id="sobre">
+            <div class="conteudo-sobre">
+                <div class="sobre-principal">
+                    <div class="texto-sobre">
+                        <h2>Olá! Meu nome é Jonathan.</h2>
+                        <p>Desenvolvedor Web</p>
+                        <div class="botoes">
+                            <a href="https://www.linkedin.com/in/jonathanlventura/" target="_blank" class="btn"><i
+                                    class='bx bxl-linkedin'></i>|
+                                Linkedin</a>
+                            <a href="https://github.com/JoonLima" target="_blank" class="btn"><i
+                                    class='bx bxl-github'></i>|
+                                Github</a>
+
+                        </div>
+                        <div class="div-hab">
+                            <span>Tech Stack |</span>
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3'></i>
+                            <i class='bx bxl-javascript'></i>
+                            <i class='bx bxl-vuejs'></i>
+                        </div>
+                    </div>
+                    <div class="imagem-logo">
+                        <img src="img/Screenshot_8.png" alt="">
+                    </div>
+                </div>
+                <div id="sobre-mim">
+                    <h2>Sobre Mim</h2>
+                    <p>Há dois anos trabalho como Analista de Qualidade (QA) em uma empresa de software, só que descobri
+                        que minha paixão é a programação, e venho estudando bastante essa área. Tenho feito alguns
+                        projetos pessoais usando HTML, CSS, JavaScript, Vue.js para o front-end, e .NET, SQL Server e
+                        Postgres para o back-end e banco de dados.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <ul>
+                <a class="item-projeto" target="_blank" href="https://github.com/JoonLima/SiteDeJogos">
+                    <div class="titulo-projeto">
+                        <div class="titulo-p">
+                            <i class='bx bx-bookmarks'></i>
+                            <h3>Venda de jogos</h3>
+                        </div>
+                        <i id="icon-link" class='bx bx-link'></i>
+                    </div>
+                    <div class="descricao-projeto">
+                        <p>Site de venda de jogos onde você pode criar sua conta
+                            e adicionar os jogos disponíveis na loja ao seu carrinho.
+                        </p>
+                    </div>
+                    <div class="stacks">
+                        <span>Vue.js</span>
+                        <span>.NET</span>
+                        <span>SQL Server</span>
+                    </div>
+                </a>
+                <a class="item-projeto" target="_blank" href="https://github.com/JoonLima/MakeYourBurger">
+                    <div class="titulo-projeto">
+                        <div class="titulo-p">
+                            <i class='bx bx-bookmarks'></i>
+                            <h3>Make Your Burger</h3>
+                        </div>
+                        <i id="icon-link" class='bx bx-link'></i>
+                    </div>
+                    <div class="descricao-projeto">
+                        <p>Um site onde você pode fazer seu pedido escolhendo a carne, pão e opcionais.
+                            Você também pode gerenciar e alterar o status dos pedidos.</p>
+                    </div>
+                    <div class="stacks">
+                        <span>Vue.js</span>
+                    </div>
+                </a>
+                <a class="item-projeto" target="_blank" href="#">
+                    <div class="titulo-projeto">
+                        <div class="titulo-p">
+                            <i class='bx bx-bookmarks'></i>
+                            <h3>EM CONSTRUÇÃO</h3>
+                        </div>
+                        <i id="icon-link" class='bx bx-link'></i>
+                    </div>
+                    <div class="descricao-projeto">
+                        <p>EM CONSTRUÇÃO</p>
+                    </div>
+                    <div class="stacks">
+                        <span>EM CONSTRUÇÃO</span>
+                    </div>
+                </a>
+                <a class="item-projeto" target="_blank" href="#">
+                    <div class="titulo-projeto">
+                        <div class="titulo-p">
+                            <i class='bx bx-bookmarks'></i>
+                            <h3>EM CONSTRUÇÃO</h3>
+                        </div>
+                        <i id="icon-link" class='bx bx-link'></i>
+                    </div>
+                    <div class="descricao-projeto">
+                        <p>EM CONSTRUÇÃO</p>
+                    </div>
+                    <div class="stacks">
+                        <span>EM CONSTRUÇÃO</span>
+                    </div>
+                </a>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>CONTATOS</h2>
+            <div class="icones">
+                <div class="icone">
+                    <a href="" target="_blank"><i class='ic bx bx-envelope'></i></a></i>
+                    <span class="texo-icone">E-mail</span>
+                    <span class="texo-icone2">jonathan.vpp@gmail.com</span>
+                </div>
+                <div class="icone">
+                    <a href="https://github.com/JoonLima" target="_blank"><i class='ic bx bxl-github'></i></a></i>
+                    <span class="texo-icone">Github</span>
+                    <span class="texo-icone2">@JoonLima</span>
+                </div>
+                <div class="icone">
+                    <a href="https://www.linkedin.com/in/jonathanlventura/" target="_blank"><i
+                            class='ic bx bxl-linkedin-square'></i></a>
+                    <span class="texo-icone">Linkedin</span>
+                    <span class="texo-icone2">@jonathanlventura</span>
+                </div>
+                <div class="icone">
+                    <a href="https://api.whatsapp.com/send/?phone=5521971935139&text&type=phone_number&app_absent=0"
+                        target="_blank"><i class='ic bx bx-phone'></i></a>
+                    <span class="texo-icone">Telefone</span>
+                    <span class="texo-icone2">(21) 97193-5139</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

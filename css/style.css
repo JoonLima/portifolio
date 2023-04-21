@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F9F9F9;
+}
+
+h2 {
+    color: #13131F;
+}
+
+/* MENU */
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100vh;
+    background-color: #fff;
+    color: #fff;
+    box-shadow: 3px 0 0 #13131F;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.logo-menu img {
+    color: #fff;
+    width: 40px;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#icon-menu {
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 60px;
+    color: #13131F;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    color: #13131F;
+}
+
+.menu-item {
+    transition: .5s;
+}
+
+.menu-item a:hover {
+    background-color: #13131F;
+    color: #fff;
+}
+
+.txt-link {
+    margin-left: 20px;
+    transition: .6s;
+}
+
+.icon i {
+    transition: .4s;
+    font-size: 30px;
+}
+
+.open {
+    width: 200px;
+    overflow: hidden;
+}
+
+@media (width < 1160px) {
+
+    .conteudo-principal {
+        width: 780px;
+    }
+
+    #projetos ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (width < 940px) {
+
+    .sobre-principal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto-sobre {
+        margin-bottom: 60px;
+    }
+
+    .conteudo-sobre {
+        align-items: center;
+    }
+
+    #sobre-mim {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+    }
+}
+
+/* MAIN */
+
+.conteudo-principal {
+    max-width: 1000px;
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.sobre-principal {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.imagem-logo {
+    padding-right: 0px;
+}
+
+.texto-sobre {
+    padding-top: 100px;
+    padding-left: 0px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-sobre h2 {
+    color: #13131F;
+}
+
+.conteudo-sobre p {
+    color: #828282;
+}
+
+.div-hab {
+    display: flex;
+    align-items: center;
+    color: #13131F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div-hab .bx {
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.div-hab .bx:hover {
+    color: #147EFB;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#projetos h2 {
+    border-bottom: 2px solid #13131F;
+    margin-bottom: 20px;
+}
+
+#projetos ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.titulo-projeto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.titulo-projeto i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.titulo-p {
+    display: flex;
+    align-items: center;
+}
+
+#icon-link {
+    float: right;
+}
+
+.descricao-projeto {
+    color: #6e6e6e;
+    font-size: 17px;
+}
+
+.item-projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 150px;
+    padding: 13px;
+    color: #13131F;
+    border: 2px solid #13131F;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 29px;
+    transition: .4s;
+}
+
+.item-projeto:hover {
+    background-color: #13131F;
+    color: #fff;
+}
+
+.stacks {
+    display: flex;
+}
+
+.stacks span {
+    background-color: #13131F;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+#contato {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre-mim {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+#sobre-mim p {
+    color: #828282;
+}
+
+.botoes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.btn {
+    color: #13131F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #828282;
+    border-radius: 30px;
+    padding: 8px;
+    transition: 0.5s;
+    margin-right: 30px;
+    font-weight: bold;
+    height: 20px;
+    width: 150px;
+}
+
+.btn:hover {
+    background-color: #13131F;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+#habilidades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-habilidade {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.habilidade {
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    border-bottom: 3px solid #13131F;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.habilidade:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.texo-icone-hab {
+    color: #828282;
+    font-size: 20px;
+}
+
+.habilidade .bx {
+    font-size: 35px;
+    color: #13131F;
+}
+
+.bx {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone {
+    font-size: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    color: #13131F;
+}
+
+.ic {
+    font-size: 40px;
+    color: #13131F;
+}
+
+.icone:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.texo-icone {
+    font-size: 15px;
+}
+
+.texo-icone2 {
+    font-size: 15px;
+    color: #828282;
+}
