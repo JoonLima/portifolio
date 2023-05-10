@@ -183,7 +183,7 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 600px;
+        width: 90%;
     }
 }
 
@@ -193,7 +193,11 @@ h2 {
         display: none;
     }
     #sobre-mim p {
-        font-size: 1rem;
+        font-size: 1.1rem;   
+    }
+
+    #sobre-mim h2{
+        font-size: 1.6rem;
     }
 
     #icon-menu-mobile{
@@ -235,6 +239,15 @@ h2 {
     #projetos .item-projeto {
         width: 80%;
     }
+    
+    #projetos h2{
+        font-size: 1.6rem;
+    }
+
+    #contato h2{
+        font-size: 1.6rem;
+    }
+
 
 }
 
@@ -384,6 +397,11 @@ h2 {
     align-items: center;
 }
 
+#contato h2{
+    border-bottom: 2px solid #13131F;
+    margin-bottom: 20px;
+}
+
 #sobre-mim {
     margin-top: 100px;
     display: flex;
@@ -394,6 +412,11 @@ h2 {
 
 #sobre-mim p {
     color: #828282;
+}
+
+#sobre-mim h2{
+    border-bottom: 2px solid #13131F;
+    margin-bottom: 20px;
 }
 
 .botoes {
