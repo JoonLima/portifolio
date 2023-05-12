@@ -149,7 +149,7 @@ h2 {
     display: block;
 }
 
-@media (width < 1160px) {
+@media (max-width: 1160px) {
 
     .conteudo-principal {
         width: 80%
@@ -164,7 +164,7 @@ h2 {
     }
 }
 
-@media (width < 940px) {
+@media (max-width: 940px) {
 
     .sobre-principal {
         flex-direction: column;
@@ -187,7 +187,7 @@ h2 {
     }
 }
 
-@media (width < 720px) {
+@media (max-width: 720px) {
 
     .menu {
         display: none;
