@@ -29,4 +29,14 @@ export default {
 .aviso img {
   width: 500px;
 }
+
+@media (max-width: 600px) {
+  .aviso img {
+    width: 400px;
+  }
+
+  .aviso span {
+    font-size: 25px;
+  }
+}
 </style>

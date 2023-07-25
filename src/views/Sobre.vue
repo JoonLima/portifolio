@@ -140,7 +140,7 @@ export default {
 }
 
 .cards {
-  max-width: 1300px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -158,5 +158,17 @@ export default {
 
   margin-bottom: 100px;
   gap: 40px;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .textos {
+    max-width: 70%;
+    text-align: justify;
+  }
 }
 </style>

@@ -53,7 +53,6 @@ export default {
   justify-content: space-between;
   min-height: 230px;
   color: aliceblue;
-
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 29px;
@@ -128,5 +127,12 @@ export default {
 
 .botoes a i {
   font-size: 20px;
+}
+
+@media (max-width: 1050px) {
+  .projeto {
+    flex-direction: column;
+    width: 450px;
+  }
 }
 </style>
