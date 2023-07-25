@@ -18,11 +18,11 @@
         <span>{{ tecnologiasUtilizadas }}</span>
       </div>
       <div class="botoes">
-        <a href="">
+        <a :href="linkCodigo" target="_blank">
           <i class="bx bx-code-alt"></i>
           Codigo
         </a>
-        <a href="">
+        <a :href="linkSite" target="_blank">
           <i class="bx bx-show"></i>
           Site
         </a>
@@ -36,7 +36,14 @@
 
 <script>
 export default {
-  props: ["titulo", "descricao", "tecnologiasUtilizadas", "imagem"],
+  props: [
+    "titulo",
+    "descricao",
+    "tecnologiasUtilizadas",
+    "imagem",
+    "linkCodigo",
+    "linkSite",
+  ],
 };
 </script>
 
