@@ -12,6 +12,9 @@
         <router-link active-class="active" to="/projetos-back"
           >Projetos Back</router-link
         >
+        <router-link active-class="active" exact to="/contatos"
+          >Contatos</router-link
+        >
       </div>
     </div>
   </div>
@@ -28,6 +31,7 @@
   align-items: center;
   justify-content: space-between;
   height: 65px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .logo span {
@@ -44,14 +48,14 @@
   text-decoration: none;
   padding: 10px;
   color: white;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .nav .links a:hover {
-  border-bottom: 1px solid #02b2e6;
+  border-bottom: 2px solid #02b2e6;
 }
 
 .links .active {
-  border-bottom: 1px solid #02b2e6;
+  border-bottom: 2px solid #02b2e6;
 }
 </style>

@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Sobre from "@/views/Sobre.vue";
 import ProjetosBack from "@/views/ProjetosBack.vue";
 import ProjetosFront from "@/views/ProjetosFront.vue";
+import Contatos from "@/views/Contatos.vue";
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: "/projetos-front",
     name: "projetosFront",
     component: ProjetosFront,
+  },
+  {
+    path: "/contatos",
+    name: "contatos",
+    component: Contatos,
   },
 ];
 
