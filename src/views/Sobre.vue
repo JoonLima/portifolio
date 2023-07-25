@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="imagem">
-      <img src="\src\assets\img-projetos\code-icon.png" alt="" />
+      <img src="\img-projetos\code-icon.png" alt="" />
     </div>
   </div>
   <div class="cards">
@@ -32,39 +32,21 @@
       <span>Habilidades</span>
     </div>
     <div class="linguagens">
-      <card-linguagem titulo="HTML" imagem="\src\assets\linguagens\html.png" />
-      <card-linguagem titulo="CSS" imagem="\src\assets\linguagens\css.png" />
-      <card-linguagem
-        titulo="JavaScript"
-        imagem="\@\assets\linguagens\javascript.png"
-      />
+      <card-linguagem titulo="HTML" imagem="\linguagens\html.png" />
+      <card-linguagem titulo="CSS" imagem="\linguagens\css.png" />
+      <card-linguagem titulo="JavaScript" imagem="\linguagens\javascript.png" />
       <card-linguagem
         titulo="Tailwind CSS"
-        imagem="\src\assets\linguagens\tailwindcss.png"
+        imagem="\linguagens\tailwindcss.png"
       />
-      <card-linguagem titulo="Vue.js" imagem="\src\assets\linguagens\vue.png" />
-      <card-linguagem
-        titulo="Vuetify"
-        imagem="\src\assets\linguagens\vuetify.png"
-      />
-      <card-linguagem
-        titulo="Graphql"
-        imagem="\src\assets\linguagens\graphql.png"
-      />
-      <card-linguagem
-        titulo="Postgres"
-        imagem="\src\assets\linguagens\postgres.png"
-      />
-      <card-linguagem
-        titulo="Sql Server"
-        imagem="\src\assets\linguagens\sqlserver.png"
-      />
-      <card-linguagem titulo="C#" imagem="\src\assets\linguagens\c.png" />
-      <card-linguagem titulo="Java" imagem="\src\assets\linguagens\java.png" />
-      <card-linguagem
-        titulo="Selenium"
-        imagem="\src\assets\linguagens\selenium.png"
-      />
+      <card-linguagem titulo="Vue.js" imagem="\linguagens\vue.png" />
+      <card-linguagem titulo="Vuetify" imagem="\linguagens\vuetify.png" />
+      <card-linguagem titulo="Graphql" imagem="\linguagens\graphql.png" />
+      <card-linguagem titulo="Postgres" imagem="\linguagens\postgres.png" />
+      <card-linguagem titulo="Sql Server" imagem="\linguagens\sqlserver.png" />
+      <card-linguagem titulo="C#" imagem="\linguagens\c.png" />
+      <card-linguagem titulo="Java" imagem="\linguagens\java.png" />
+      <card-linguagem titulo="Selenium" imagem="\linguagens\selenium.png" />
     </div>
   </div>
 </template>
