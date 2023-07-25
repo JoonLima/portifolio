@@ -36,7 +36,7 @@
       <card-linguagem titulo="CSS" imagem="\src\assets\linguagens\css.png" />
       <card-linguagem
         titulo="JavaScript"
-        imagem="\src\assets\linguagens\javascript.png"
+        imagem="\@\assets\linguagens\javascript.png"
       />
       <card-linguagem
         titulo="Tailwind CSS"
