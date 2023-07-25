@@ -2,7 +2,7 @@
   <div class="container">
     <div class="cards">
       <card-projetos
-        imagem="src\assets\img-projetos\MovieLib.png"
+        imagem="\src\assets\img-projetos\MovieLib.png"
         titulo="MovieLib"
         descricao="Uma biblioteca de filmes onde você terá acesso a uma vasta seleção de filmes dos mais variados gêneros, desde clássicos intemporais até os mais recentes lançamentos de sucesso."
         tecnologiasUtilizadas="Vue.js"
@@ -10,7 +10,7 @@
         linkSite="https://filmes-azure.vercel.app/"
       />
       <card-projetos-inverso
-        imagem="src\assets\img-projetos\burger.png"
+        imagem="\src\assets\img-projetos\burger.png"
         titulo="Make Your Burger"
         descricao="Um site onde pode montar seu pedido de hamburger, escolhendo o pão, a carne e os opcionais. Na área de pedidos podemos gerencias os pedidos realizados e alterar o status de preparação."
         tecnologiasUtilizadas="Vue.js | JSON Server"

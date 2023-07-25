@@ -2,7 +2,7 @@
   <div class="container">
     <div class="aviso">
       <span>Página em construção</span>
-      <img src="src\assets\img-projetos\contrucao.gif" alt="" />
+      <img src="\src\assets\img-projetos\contrucao.gif" alt="" />
     </div>
   </div>
 </template>
