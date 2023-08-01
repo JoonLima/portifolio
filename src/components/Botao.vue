@@ -25,7 +25,6 @@ export default {
   border-radius: 5px;
   padding: 8px;
   transition: 0.5s;
-  margin-right: 30px;
   height: 40px;
   width: 130px;
   gap: 10px;

@@ -104,6 +104,7 @@ export default {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
+  gap: 20px;
 }
 
 .imagem img {
@@ -136,9 +137,21 @@ export default {
     flex-direction: column;
   }
 
+  .botoes {
+    justify-content: center;
+  }
+
   .container .textos {
-    max-width: 70%;
+    max-width: 90%;
     text-align: justify;
+  }
+
+  .cards {
+    align-items: center;
+  }
+
+  .cards .linguagens {
+    justify-content: center;
   }
 }
 </style>

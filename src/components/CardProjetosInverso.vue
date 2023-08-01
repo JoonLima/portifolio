@@ -56,6 +56,7 @@ export default {
   text-decoration: none;
   width: 80%;
   gap: 30px;
+  box-sizing: border-box;
   transition: 0.4s;
 }
 
@@ -97,13 +98,18 @@ export default {
 
 .botoes {
   display: flex;
+  gap: 20px;
   margin-top: 20px;
 }
 
 @media (max-width: 1050px) {
   .projeto {
     flex-direction: column-reverse;
-    width: 450px;
+    width: 100%;
+  }
+
+  .imagem img {
+    width: 100%;
   }
 }
 </style>

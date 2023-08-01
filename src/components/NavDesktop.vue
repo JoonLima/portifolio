@@ -62,6 +62,7 @@ export default {
   height: 65px;
   background-color: #231e20;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

@@ -90,22 +90,25 @@ export default {
 }
 
 .imagem img {
-  width: 450px;
-  height: 100%;
+  width: 100%;
   border: 2px solid whitesmoke;
   border-radius: 10px;
 }
 
 .botoes {
   display: flex;
-
+  gap: 20px;
   margin-top: 20px;
 }
 
 @media (max-width: 1050px) {
   .projeto {
     flex-direction: column;
-    width: 450px;
+    width: 100%;
+  }
+
+  .imagem img {
+    width: 100%;
   }
 }
 </style>
