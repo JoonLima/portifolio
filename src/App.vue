@@ -8,6 +8,9 @@ import NavDesktop from "./components/NavDesktop.vue";
 
 export default {
   components: { NavDesktop },
+  data() {
+    return {};
+  },
 };
 </script>
 

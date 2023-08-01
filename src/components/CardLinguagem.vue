@@ -7,7 +7,10 @@
 
 <script>
 export default {
-  props: ["titulo", "imagem"],
+  props: {
+    titulo: { type: String, required: false, default: "" },
+    imagem: { type: String, required: false, default: "" },
+  },
 };
 </script>
 
@@ -28,11 +31,13 @@ export default {
 
 .box-icon:hover {
   transform: scale(1.1);
+  box-shadow: #01ec8f 1px 4px 10px;
 }
 
 .box-icon span {
   font-size: 16px;
   color: aliceblue;
+  transition: 0.3s;
 }
 
 .box-icon img {

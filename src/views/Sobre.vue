@@ -12,15 +12,16 @@
       </p>
 
       <div class="botoes">
-        <a
+        <botao
           href="https://www.linkedin.com/in/jonathanlventura/"
-          target="_blank"
-          class="btn"
-          ><i class="bx bxl-linkedin"></i>| Linkedin</a
-        >
-        <a href="https://github.com/JoonLima" target="_blank" class="btn"
-          ><i class="bx bxl-github"></i>| Github</a
-        >
+          icone="bxl-linkedin"
+          texto="Linkedin"
+        />
+        <botao
+          href="https://github.com/JoonLima"
+          icone="bxl-github"
+          texto="Github"
+        />
       </div>
     </div>
     <div class="imagem">
@@ -32,30 +33,40 @@
       <span>Habilidades</span>
     </div>
     <div class="linguagens">
-      <card-linguagem titulo="HTML" imagem="\linguagens\html.png" />
-      <card-linguagem titulo="CSS" imagem="\linguagens\css.png" />
-      <card-linguagem titulo="JavaScript" imagem="\linguagens\javascript.png" />
       <card-linguagem
-        titulo="Tailwind CSS"
-        imagem="\linguagens\tailwindcss.png"
+        v-for="linguagem in linguagens"
+        :key="linguagem"
+        :titulo="linguagem.titulo"
+        :imagem="linguagem.imagem"
       />
-      <card-linguagem titulo="Vue.js" imagem="\linguagens\vue.png" />
-      <card-linguagem titulo="Vuetify" imagem="\linguagens\vuetify.png" />
-      <card-linguagem titulo="Graphql" imagem="\linguagens\graphql.png" />
-      <card-linguagem titulo="Postgres" imagem="\linguagens\postgres.png" />
-      <card-linguagem titulo="Sql Server" imagem="\linguagens\sqlserver.png" />
-      <card-linguagem titulo="C#" imagem="\linguagens\c.png" />
-      <card-linguagem titulo="Java" imagem="\linguagens\java.png" />
-      <card-linguagem titulo="Selenium" imagem="\linguagens\selenium.png" />
     </div>
   </div>
 </template>
 
 <script>
 import CardLinguagem from "@/components/CardLinguagem.vue";
+import Botao from "@/components/Botao.vue";
 
 export default {
-  components: { CardLinguagem },
+  components: { CardLinguagem, Botao },
+  data() {
+    return {
+      linguagens: [
+        { titulo: "HTML", imagem: "/linguagens/html.png" },
+        { titulo: "CSS", imagem: "/linguagens/css.png" },
+        { titulo: "JavaScript", imagem: "/linguagens/javascript.png" },
+        { titulo: "Tailwind CSS", imagem: "/linguagens/tailwindcss.png" },
+        { titulo: "Vue", imagem: "/linguagens/vue.png" },
+        { titulo: "Vuetify", imagem: "/linguagens/vuetify.png" },
+        { titulo: "Graphql", imagem: "/linguagens/graphql.png" },
+        { titulo: "Postgres", imagem: "/linguagens/postgres.png" },
+        { titulo: "SQL Server", imagem: "/linguagens/sqlserver.png" },
+        { titulo: "C#", imagem: "/linguagens/c.png" },
+        { titulo: "Java", imagem: "/linguagens/java.png" },
+        { titulo: "Selenium", imagem: "/linguagens/selenium.png" },
+      ],
+    };
+  },
 };
 </script>
 
@@ -95,28 +106,6 @@ export default {
   display: flex;
 }
 
-.btn {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  border: 2px solid #01ec8f;
-  border-radius: 5px;
-  padding: 8px;
-  transition: 0.5s;
-  margin-right: 30px;
-  height: 40px;
-  width: 150px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  border: 2px solid #02b2e6;
-  cursor: pointer;
-  transform: scale(1.05);
-}
-
 .imagem img {
   width: 500px;
 }
@@ -137,7 +126,6 @@ export default {
 .cards .linguagens {
   display: flex;
   flex-wrap: wrap;
-
   margin-bottom: 100px;
   gap: 40px;
 }

@@ -21,29 +21,26 @@
         <span>{{ tecnologiasUtilizadas }}</span>
       </div>
       <div class="botoes">
-        <a :href="linkCodigo" target="_blank">
-          <i class="bx bx-code-alt"></i>
-          Codigo
-        </a>
-        <a :href="linkSite" target="_blank">
-          <i class="bx bx-show"></i>
-          Site
-        </a>
+        <botao :href="linkCodigo" icone="bx-code-alt" texto="Codigo" />
+        <botao :href="linkSite" icone="bx-show" texto="Site" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Botao from "./Botao.vue";
+
 export default {
-  props: [
-    "titulo",
-    "descricao",
-    "tecnologiasUtilizadas",
-    "imagem",
-    "linkCodigo",
-    "linkSite",
-  ],
+  components: { Botao },
+  props: {
+    titulo: { type: String, required: false, default: "" },
+    descricao: { type: String, required: false, default: "" },
+    tecnologiasUtilizadas: { type: String, required: false, default: "" },
+    imagem: { type: String, required: false, default: "" },
+    linkCodigo: { type: String, required: false, default: "" },
+    linkSite: { type: String, required: false, default: "" },
+  },
 };
 </script>
 
@@ -101,32 +98,8 @@ export default {
 
 .botoes {
   display: flex;
-  gap: 20px;
+
   margin-top: 20px;
-}
-
-.botoes a {
-  text-decoration: none;
-  color: aliceblue;
-  border: 2px solid #01ec8f;
-  border-radius: 5px;
-  padding: 8px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  box-shadow: 3px 2px 2px black;
-  transition: 0.3s;
-}
-
-.botoes a:hover {
-  border: 2px solid #02b2e6;
-  cursor: pointer;
-  transform: scale(1.05);
-}
-
-.botoes a i {
-  font-size: 20px;
 }
 
 @media (max-width: 1050px) {
