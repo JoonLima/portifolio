@@ -143,7 +143,6 @@ export default {
 
   .container .textos {
     max-width: 90%;
-    text-align: justify;
   }
 
   .cards {
