@@ -4,11 +4,10 @@
       <span class="principal">Olá! Meu nome é Jonathan.</span>
       <span class="secundario">Desenvolvedor Web</span>
       <p>
-        Há dois anos trabalho como Analista de Qualidade (QA) em uma empresa de
-        software, só que descobri que minha paixão é a programação, e venho
-        estudando bastante essa área. Tenho feito alguns projetos pessoais
-        usando HTML, CSS, JavaScript, Vue.js para o front-end, e .NET, SQL
-        Server e Postgres para o back-end e banco de dados.
+        Iniciei na área de tecnologia há 2 anos, desde então trabalho como
+        Analista de Qualidade (QA), e descobri que minha paixão é a programação.
+        Por isso, estou sempre criando novos projetos pessoais para colocar em
+        prática todo o meu conhecimento, me desafiar e sempre melhorar.
       </p>
 
       <div class="botoes">
