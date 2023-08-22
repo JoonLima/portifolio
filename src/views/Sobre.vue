@@ -54,7 +54,7 @@ export default {
         { titulo: "HTML", imagem: "/linguagens/html.png" },
         { titulo: "CSS", imagem: "/linguagens/css.png" },
         { titulo: "JavaScript", imagem: "/linguagens/javascript.png" },
-        { titulo: "Tailwind CSS", imagem: "/linguagens/tailwindcss.png" },
+        { titulo: "Git", imagem: "/linguagens/git.png" },
         { titulo: "Vue", imagem: "/linguagens/vue.png" },
         { titulo: "Vuetify", imagem: "/linguagens/vuetify.png" },
         { titulo: "Graphql", imagem: "/linguagens/graphql.png" },
