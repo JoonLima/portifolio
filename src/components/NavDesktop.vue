@@ -18,14 +18,8 @@
         <router-link
           @click.prevent="menuAtivo = false"
           active-class="active"
-          to="/projetos-front"
-          >Projetos Front</router-link
-        >
-        <router-link
-          @click.prevent="menuAtivo = false"
-          active-class="active"
-          to="/projetos-back"
-          >Projetos Back</router-link
+          to="/projetos"
+          >Projetos</router-link
         >
         <router-link
           @click.prevent="menuAtivo = false"

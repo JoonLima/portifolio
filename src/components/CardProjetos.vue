@@ -18,6 +18,7 @@
       </div>
 
       <div class="stacks">
+        <span class="titulo-tecnologias">Técnologias utilizadas</span>
         <span>{{ tecnologiasUtilizadas }}</span>
       </div>
       <div class="botoes">
@@ -81,12 +82,23 @@ export default {
 
 .projeto .stacks {
   margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto .stacks .titulo-tecnologias{
+  font-size: x-small;
+  font-style: italic;
 }
 
 .projeto .texto {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.imagem{
+  max-width: 45%;
 }
 
 .imagem img {
