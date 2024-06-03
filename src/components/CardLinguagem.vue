@@ -1,8 +1,8 @@
 <template>
-  <div class="box-icon">
+  <v-card color="table-header" class="box-icon">
     <span> {{ titulo }} </span>
     <img :src="imagem" alt="linguagem" />
-  </div>
+  </v-card>
 </template>
 
 <script>
@@ -20,7 +20,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #383838;
   border-bottom: 2px solid #02b2e6;
   border-top-left-radius: 15px;
   min-width: 120px;
@@ -31,7 +30,7 @@ export default {
 
 .box-icon:hover {
   transform: scale(1.1);
-  box-shadow: #01ec8f 1px 4px 10px;
+  box-shadow: #65656d 1px 4px 10px;
 }
 
 .box-icon span {

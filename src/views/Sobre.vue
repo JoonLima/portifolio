@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="imagem">
-      <img src="\img-projetos\code-icon.png" alt="" />
+      <img src="\foto\minha-foto.png" alt="" />
     </div>
   </div>
   <div class="cards">
@@ -80,22 +80,20 @@ export default {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
+  width: 70%;
 }
 
 .textos p {
   font-weight: 300;
-  color: white;
 }
 
 .textos .principal {
   font-size: 30px;
   font-weight: 500;
-  color: white;
 }
 
 .textos .secundario {
   font-size: 20px;
-  color: rgba(245, 245, 245, 0.795);
   margin-bottom: 10px;
 }
 
@@ -106,8 +104,15 @@ export default {
   gap: 20px;
 }
 
+.imagem {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
 .imagem img {
-  width: 500px;
+  width: 80%;
+  border-radius: 10%;
 }
 
 .cards {
@@ -119,7 +124,6 @@ export default {
 }
 
 .cards .titulo {
-  color: aliceblue;
   font-size: 25px;
 }
 
@@ -134,10 +138,6 @@ export default {
   .container {
     display: flex;
     flex-direction: column;
-  }
-
-  .botoes {
-    justify-content: center;
   }
 
   .container .textos {

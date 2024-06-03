@@ -1,36 +1,36 @@
 <template>
-  <div class="container">
-    <div class="icones">
-      <div class="icone">
-        <a href="" target="_blank"><i class="ic bx bx-envelope"></i></a>
-        <span class="texo-icone">E-mail</span>
-        <span class="texo-icone2">jonathan.vpp@gmail.com</span>
-      </div>
-      <div class="icone">
-        <a href="https://github.com/JoonLima" target="_blank"
-          ><i class="ic bx bxl-github"></i
-        ></a>
-        <span class="texo-icone">Github</span>
-        <span class="texo-icone2">@JoonLima</span>
-      </div>
-      <div class="icone">
-        <a href="https://www.linkedin.com/in/jonathanlventura/" target="_blank"
-          ><i class="ic bx bxl-linkedin-square"></i
-        ></a>
-        <span class="texo-icone">Linkedin</span>
-        <span class="texo-icone2">@jonathanlventura</span>
-      </div>
-      <div class="icone">
-        <a
-          href="https://api.whatsapp.com/send/?phone=5521971935139&text&type=phone_number&app_absent=0"
-          target="_blank"
-          ><i class="ic bx bx-phone"></i
-        ></a>
-        <span class="texo-icone">Telefone</span>
-        <span class="texo-icone2">(21) 97193-5139</span>
-      </div>
-    </div>
-  </div>
+  <v-row class="container">
+    <v-col lg="3" sm="12" xs="12" class="icone">
+      <a href="" target="_blank"
+        ><v-icon color="primary" class="ic">mdi-email-outline</v-icon></a
+      >
+      <span class="texo-icone">E-mail</span>
+      <span class="texo-icone">jonathan.vpp@gmail.com</span>
+    </v-col>
+    <v-col lg="3" sm="12" xs="12" class="icone">
+      <a href="https://github.com/JoonLima" target="_blank"
+        ><v-icon color="primary" class="ic">mdi-github</v-icon></a
+      >
+      <span class="texo-icone">Github</span>
+      <span class="texo-icone">@JoonLima</span>
+    </v-col>
+    <v-col lg="3" sm="12" xs="12" class="icone">
+      <a href="https://www.linkedin.com/in/jonathanlventura/" target="_blank"
+        ><v-icon color="primary" class="ic">mdi-linkedin</v-icon></a
+      >
+      <span class="texo-icone">Linkedin</span>
+      <span class="texo-icone">@jonathanlventura</span>
+    </v-col>
+    <v-col lg="3" sm="12" xs="12" class="icone">
+      <a
+        href="https://api.whatsapp.com/send/?phone=5521971935139&text&type=phone_number&app_absent=0"
+        target="_blank"
+        ><v-icon color="primary" class="ic">mdi-cellphone</v-icon></a
+      >
+      <span class="texo-icone">Telefone</span>
+      <span class="texo-icone">(21) 97193-5139</span>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -53,12 +53,10 @@ export default {};
   justify-content: center;
   align-items: center;
   transition: 0.2s;
-  color: aliceblue;
 }
 
 .ic {
   font-size: 40px;
-  color: aliceblue;
 }
 
 .icone:hover {
@@ -72,12 +70,8 @@ export default {};
 
 .texo-icone2 {
   font-size: 15px;
-  color: #828282;
 }
 
 @media (max-width: 855px) {
-  .icones {
-    flex-direction: column;
-  }
 }
 </style>

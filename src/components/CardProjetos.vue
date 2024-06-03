@@ -50,7 +50,6 @@ export default {
   display: flex;
   justify-content: space-between;
   min-height: 230px;
-  color: aliceblue;
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 29px;
@@ -86,7 +85,7 @@ export default {
   flex-direction: column;
 }
 
-.projeto .stacks .titulo-tecnologias{
+.projeto .stacks .titulo-tecnologias {
   font-size: x-small;
   font-style: italic;
 }
@@ -97,13 +96,12 @@ export default {
   justify-content: space-between;
 }
 
-.imagem{
+.imagem {
   max-width: 45%;
 }
 
 .imagem img {
   width: 100%;
-  border: 2px solid whitesmoke;
   border-radius: 10px;
 }
 
@@ -119,8 +117,8 @@ export default {
     width: 100%;
   }
 
-  .imagem img {
-    width: 100%;
+  .imagem {
+    min-width: 100%;
   }
 }
 </style>

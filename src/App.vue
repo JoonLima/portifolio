@@ -1,10 +1,12 @@
 <template>
-  <nav-desktop />
-  <router-view />
+  <v-app>
+    <nav-desktop />
+    <router-view />
+  </v-app>
 </template>
 
-<script >
-import NavDesktop from "./components/NavDesktop.vue";
+<script>
+import NavDesktop from "./components/BarraMenu.vue";
 
 export default {
   components: { NavDesktop },
@@ -24,12 +26,35 @@ export default {
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background-color: #231e20;
-}
-
 .container {
   max-width: 90%;
   margin: 0 auto;
+}
+
+.v-overlay--active {
+  margin-top: 75px;
+  backdrop-filter: blur(2px);
+  background: rgb(0 0 0 / 0.8);
+}
+
+/* Barra de rolagem inteira */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem vertical */
+  height: 8px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Parte de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Parte da barra de rolagem que se move */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Parte da barra de rolagem que se move ao passar o mouse por cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 </style>
