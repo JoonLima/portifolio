@@ -33,6 +33,16 @@ export default {
       this.dialog = false;
     },
   },
+
+  watch: {
+    dialog() {
+      if (this.dialog) {
+        this.menuAtivo = true;
+      } else {
+        this.menuAtivo = false;
+      }
+    },
+  },
 };
 </script>
 
