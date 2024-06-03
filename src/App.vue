@@ -32,7 +32,7 @@ export default {
 }
 
 .v-overlay--active {
-  margin-top: 75px;
+  margin-top: 72px;
   backdrop-filter: blur(2px);
   background: rgb(0 0 0 / 0.8);
 }
